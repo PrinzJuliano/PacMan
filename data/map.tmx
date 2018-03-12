@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="28" height="31" tilewidth="8" tileheight="8" infinite="0" nextobjectid="467">
+ <tileset firstgid="1" source="Ground.tsx"/>
+ <layer name="Ground" width="28" height="31">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer name="Walls" width="28" height="31">
+  <data encoding="csv">
+13,11,11,11,11,11,11,11,11,11,11,11,11,28,29,11,11,11,11,11,11,11,11,11,11,11,11,14,
+9,0,0,0,0,0,0,0,0,0,0,0,0,34,33,0,0,0,0,0,0,0,0,0,0,0,0,10,
+9,0,37,35,35,38,0,37,35,35,35,38,0,34,33,0,37,35,35,35,38,0,37,35,35,38,0,10,
+9,0,34,0,0,33,0,34,0,0,0,33,0,34,33,0,34,0,0,0,33,0,34,0,0,33,0,10,
+9,0,39,36,36,40,0,39,36,36,36,40,0,39,40,0,39,36,36,36,40,0,39,36,36,40,0,10,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,
+9,0,37,35,35,38,0,37,38,0,37,35,35,35,35,35,35,38,0,37,38,0,37,35,35,38,0,10,
+9,0,39,36,36,40,0,34,33,0,39,36,36,46,45,36,36,40,0,34,33,0,39,36,36,40,0,10,
+9,0,0,0,0,0,0,34,33,0,0,0,0,34,33,0,0,0,0,34,33,0,0,0,0,0,0,10,
+15,12,12,12,12,19,0,34,47,35,35,38,0,34,33,0,37,35,35,48,33,0,20,12,12,12,12,16,
+0,0,0,0,0,9,0,34,45,36,36,40,0,39,40,0,39,36,36,46,33,0,10,0,0,0,0,0,
+0,0,0,0,0,9,0,34,33,0,0,0,0,0,0,0,0,0,0,34,33,0,10,0,0,0,0,0,
+0,0,0,0,0,9,0,34,33,0,24,12,25,27,27,26,12,23,0,34,33,0,10,0,0,0,0,0,
+11,11,11,11,11,17,0,39,40,0,10,0,0,0,0,0,0,9,0,39,40,0,18,11,11,11,11,11,
+0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,
+12,12,12,12,12,19,0,37,38,0,10,0,0,0,0,0,0,9,0,37,38,0,20,12,12,12,12,12,
+0,0,0,0,0,9,0,34,33,0,22,11,11,11,11,11,11,21,0,34,33,0,10,0,0,0,0,0,
+0,0,0,0,0,9,0,34,33,0,0,0,0,0,0,0,0,0,0,34,33,0,10,0,0,0,0,0,
+0,0,0,0,0,9,0,34,33,0,37,35,35,35,35,35,35,38,0,34,33,0,10,0,0,0,0,0,
+13,11,11,11,11,17,0,39,40,0,39,36,36,46,45,36,36,40,0,39,40,0,18,11,11,11,11,14,
+9,0,0,0,0,0,0,0,0,0,0,0,0,34,33,0,0,0,0,0,0,0,0,0,0,0,0,10,
+9,0,37,35,35,38,0,37,35,35,35,38,0,34,33,0,37,35,35,35,38,0,37,35,35,38,0,10,
+9,0,39,36,46,33,0,39,36,36,36,40,0,39,40,0,39,36,36,36,40,0,34,45,36,40,0,10,
+9,0,0,0,34,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,33,0,0,0,10,
+41,35,38,0,34,33,0,37,38,0,37,35,35,35,35,35,35,38,0,37,38,0,34,33,0,37,35,42,
+43,36,40,0,39,40,0,34,33,0,39,36,36,46,45,36,36,40,0,34,33,0,39,40,0,39,36,44,
+9,0,0,0,0,0,0,34,33,0,0,0,0,34,33,0,0,0,0,34,33,0,0,0,0,0,0,10,
+9,0,37,35,35,35,35,48,47,35,35,38,0,34,33,0,37,35,35,48,47,35,35,35,35,38,0,10,
+9,0,39,36,36,36,36,36,36,36,36,40,0,39,40,0,39,36,36,36,36,36,36,36,36,40,0,10,
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,
+15,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,16
+</data>
+ </layer>
+ <objectgroup name="Collectables">
+  <object id="2" type="CollectablePoint" gid="2" x="8" y="16" width="8" height="8"/>
+  <object id="3" type="CollectablePoint" gid="2" x="8" y="16" width="8" height="8"/>
+  <object id="7" type="CollectablePoint" gid="2" x="16" y="16" width="8" height="8"/>
+  <object id="8" type="CollectablePoint" gid="2" x="24" y="16" width="8" height="8"/>
+  <object id="9" type="CollectablePoint" gid="2" x="32" y="16" width="8" height="8"/>
+  <object id="10" type="CollectablePoint" gid="2" x="40" y="16" width="8" height="8"/>
+  <object id="11" type="CollectablePoint" gid="2" x="48" y="16" width="8" height="8"/>
+  <object id="12" type="CollectablePoint" gid="2" x="56" y="16" width="8" height="8"/>
+  <object id="13" type="CollectablePoint" gid="2" x="64" y="16" width="8" height="8"/>
+  <object id="14" type="CollectablePoint" gid="2" x="72" y="16" width="8" height="8"/>
+  <object id="15" type="CollectablePoint" gid="2" x="80" y="16" width="8" height="8"/>
+  <object id="16" type="CollectablePoint" gid="2" x="88" y="16" width="8" height="8"/>
+  <object id="17" type="CollectablePoint" gid="2" x="96" y="16" width="8" height="8"/>
+  <object id="18" type="CollectablePoint" gid="2" x="96" y="24" width="8" height="8"/>
+  <object id="19" type="CollectablePoint" gid="2" x="96" y="32" width="8" height="8"/>
+  <object id="20" type="CollectablePoint" gid="2" x="96" y="40" width="8" height="8"/>
+  <object id="21" type="CollectablePoint" gid="2" x="96" y="48" width="8" height="8"/>
+  <object id="22" type="CollectablePoint" gid="2" x="88" y="48" width="8" height="8"/>
+  <object id="23" type="CollectablePoint" gid="2" x="80" y="48" width="8" height="8"/>
+  <object id="24" type="CollectablePoint" gid="2" x="72" y="48" width="8" height="8"/>
+  <object id="25" type="CollectablePoint" gid="2" x="64" y="48" width="8" height="8"/>
+  <object id="26" type="CollectablePoint" gid="2" x="56" y="48" width="8" height="8"/>
+  <object id="27" type="CollectablePoint" gid="2" x="48" y="48" width="8" height="8"/>
+  <object id="28" type="CollectablePoint" gid="2" x="48" y="32" width="8" height="8"/>
+  <object id="29" type="CollectablePoint" gid="2" x="40" y="48" width="8" height="8"/>
+  <object id="30" type="CollectablePoint" gid="2" x="24" y="48" width="8" height="8"/>
+  <object id="31" type="CollectablePoint" gid="2" x="32" y="48" width="8" height="8"/>
+  <object id="32" type="CollectablePoint" gid="2" x="16" y="48" width="8" height="8"/>
+  <object id="33" type="CollectablePoint" gid="2" x="8" y="48" width="8" height="8"/>
+  <object id="34" type="CollectablePoint" gid="2" x="8" y="40" width="8" height="8"/>
+  <object id="35" type="CollectablePoint" gid="2" x="8" y="32" width="8" height="8"/>
+  <object id="36" type="CollectablePoint" gid="2" x="8" y="24" width="8" height="8"/>
+  <object id="37" type="CollectablePoint" gid="2" x="8" y="56" width="8" height="8"/>
+  <object id="38" type="CollectablePoint" gid="2" x="8" y="64" width="8" height="8"/>
+  <object id="39" type="CollectablePoint" gid="2" x="8" y="72" width="8" height="8"/>
+  <object id="40" type="CollectablePoint" gid="2" x="16" y="72" width="8" height="8"/>
+  <object id="41" type="CollectablePoint" gid="2" x="24" y="72" width="8" height="8"/>
+  <object id="42" type="CollectablePoint" gid="2" x="32" y="72" width="8" height="8"/>
+  <object id="43" type="CollectablePoint" gid="2" x="40" y="72" width="8" height="8"/>
+  <object id="44" type="CollectablePoint" gid="2" x="48" y="72" width="8" height="8"/>
+  <object id="45" type="CollectablePoint" gid="2" x="48" y="64" width="8" height="8"/>
+  <object id="46" type="CollectablePoint" gid="2" x="72" y="56" width="8" height="8"/>
+  <object id="47" type="CollectablePoint" gid="2" x="72" y="64" width="8" height="8"/>
+  <object id="48" type="CollectablePoint" gid="2" x="72" y="72" width="8" height="8"/>
+  <object id="49" type="CollectablePoint" gid="2" x="80" y="72" width="8" height="8"/>
+  <object id="50" type="CollectablePoint" gid="2" x="88" y="72" width="8" height="8"/>
+  <object id="51" type="CollectablePoint" gid="2" x="96" y="72" width="8" height="8"/>
+  <object id="52" type="CollectablePoint" gid="2" x="96" y="80" width="8" height="8"/>
+  <object id="53" type="CollectablePoint" gid="2" x="96" y="96" width="8" height="8"/>
+  <object id="54" type="CollectablePoint" gid="2" x="104" y="96" width="8" height="8"/>
+  <object id="55" type="CollectablePoint" gid="2" x="120" y="96" width="8" height="8"/>
+  <object id="56" type="CollectablePoint" gid="2" x="96" y="88" width="8" height="8"/>
+  <object id="57" type="CollectablePoint" gid="2" x="88" y="96" width="8" height="8"/>
+  <object id="58" type="CollectablePoint" gid="2" x="80" y="96" width="8" height="8"/>
+  <object id="59" type="CollectablePoint" gid="2" x="72" y="96" width="8" height="8"/>
+  <object id="60" type="CollectablePoint" gid="2" x="72" y="104" width="8" height="8"/>
+  <object id="61" type="CollectablePoint" gid="2" x="72" y="112" width="8" height="8"/>
+  <object id="62" type="CollectablePoint" gid="2" x="72" y="120" width="8" height="8"/>
+  <object id="63" type="CollectablePoint" gid="2" x="64" y="120" width="8" height="8"/>
+  <object id="64" type="CollectablePoint" gid="2" x="48" y="120" width="8" height="8"/>
+  <object id="65" type="CollectablePoint" gid="2" x="48" y="112" width="8" height="8"/>
+  <object id="66" type="CollectablePoint" gid="2" x="48" y="96" width="8" height="8"/>
+  <object id="67" type="CollectablePoint" gid="2" x="48" y="88" width="8" height="8"/>
+  <object id="68" type="CollectablePoint" gid="2" x="48" y="80" width="8" height="8"/>
+  <object id="69" type="CollectablePoint" gid="2" x="48" y="136" width="8" height="8"/>
+  <object id="70" type="CollectablePoint" gid="2" x="48" y="144" width="8" height="8"/>
+  <object id="71" type="CollectablePoint" gid="2" x="48" y="128" width="8" height="8"/>
+  <object id="72" type="CollectablePoint" gid="2" x="48" y="104" width="8" height="8"/>
+  <object id="73" type="CollectablePoint" gid="2" x="56" y="120" width="8" height="8"/>
+  <object id="74" type="CollectablePoint" gid="2" x="72" y="128" width="8" height="8"/>
+  <object id="75" type="CollectablePoint" gid="2" x="72" y="136" width="8" height="8"/>
+  <object id="76" type="CollectablePoint" gid="2" x="72" y="144" width="8" height="8"/>
+  <object id="77" type="CollectablePoint" gid="2" x="80" y="144" width="8" height="8"/>
+  <object id="78" type="CollectablePoint" gid="2" x="96" y="144" width="8" height="8"/>
+  <object id="79" type="CollectablePoint" gid="2" x="88" y="144" width="8" height="8"/>
+  <object id="80" type="CollectablePoint" gid="2" x="104" y="144" width="8" height="8"/>
+  <object id="81" type="CollectablePoint" gid="2" x="112" y="144" width="8" height="8"/>
+  <object id="82" type="CollectablePoint" gid="2" x="120" y="144" width="8" height="8"/>
+  <object id="83" type="CollectablePoint" gid="2" x="128" y="144" width="8" height="8"/>
+  <object id="84" type="CollectablePoint" gid="2" x="136" y="144" width="8" height="8"/>
+  <object id="85" type="CollectablePoint" gid="2" x="144" y="144" width="8" height="8"/>
+  <object id="86" type="CollectablePoint" gid="2" x="144" y="136" width="8" height="8"/>
+  <object id="87" type="CollectablePoint" gid="2" x="144" y="120" width="8" height="8"/>
+  <object id="88" type="CollectablePoint" gid="2" x="144" y="128" width="8" height="8"/>
+  <object id="89" type="CollectablePoint" gid="2" x="144" y="112" width="8" height="8"/>
+  <object id="90" type="CollectablePoint" gid="2" x="144" y="104" width="8" height="8"/>
+  <object id="91" type="CollectablePoint" gid="2" x="144" y="96" width="8" height="8"/>
+  <object id="92" type="CollectablePoint" gid="2" x="128" y="96" width="8" height="8"/>
+  <object id="93" type="CollectablePoint" gid="2" x="136" y="96" width="8" height="8"/>
+  <object id="94" type="CollectablePoint" gid="2" x="112" y="96" width="8" height="8"/>
+  <object id="95" type="CollectablePoint" gid="2" x="120" y="80" width="8" height="8"/>
+  <object id="96" type="CollectablePoint" gid="2" x="120" y="88" width="8" height="8"/>
+  <object id="97" type="CollectablePoint" gid="2" x="120" y="72" width="8" height="8"/>
+  <object id="98" type="CollectablePoint" gid="2" x="128" y="72" width="8" height="8"/>
+  <object id="99" type="CollectablePoint" gid="2" x="136" y="72" width="8" height="8"/>
+  <object id="100" type="CollectablePoint" gid="2" x="144" y="72" width="8" height="8"/>
+  <object id="101" type="CollectablePoint" gid="2" x="144" y="72" width="8" height="8"/>
+  <object id="102" type="CollectablePoint" gid="2" x="144" y="64" width="8" height="8"/>
+  <object id="103" type="CollectablePoint" gid="2" x="144" y="56" width="8" height="8"/>
+  <object id="104" type="CollectablePoint" gid="2" x="144" y="48" width="8" height="8"/>
+  <object id="105" type="CollectablePoint" gid="2" x="128" y="48" width="8" height="8"/>
+  <object id="106" type="CollectablePoint" gid="2" x="120" y="48" width="8" height="8"/>
+  <object id="107" type="CollectablePoint" gid="2" x="104" y="48" width="8" height="8"/>
+  <object id="108" type="CollectablePoint" gid="2" x="112" y="48" width="8" height="8"/>
+  <object id="109" type="CollectablePoint" gid="2" x="136" y="48" width="8" height="8"/>
+  <object id="110" type="CollectablePoint" gid="2" x="120" y="40" width="8" height="8"/>
+  <object id="111" type="CollectablePoint" gid="2" x="120" y="32" width="8" height="8"/>
+  <object id="112" type="CollectablePoint" gid="2" x="120" y="24" width="8" height="8"/>
+  <object id="113" type="CollectablePoint" gid="2" x="120" y="16" width="8" height="8"/>
+  <object id="114" type="CollectablePoint" gid="2" x="128" y="16" width="8" height="8"/>
+  <object id="115" type="CollectablePoint" gid="2" x="144" y="16" width="8" height="8"/>
+  <object id="116" type="CollectablePoint" gid="2" x="136" y="16" width="8" height="8"/>
+  <object id="117" type="CollectablePoint" gid="2" x="152" y="16" width="8" height="8"/>
+  <object id="118" type="CollectablePoint" gid="2" x="160" y="16" width="8" height="8"/>
+  <object id="119" type="CollectablePoint" gid="2" x="168" y="16" width="8" height="8"/>
+  <object id="120" type="CollectablePoint" gid="2" x="168" y="24" width="8" height="8"/>
+  <object id="121" type="CollectablePoint" gid="2" x="168" y="32" width="8" height="8"/>
+  <object id="122" type="CollectablePoint" gid="2" x="168" y="48" width="8" height="8"/>
+  <object id="123" type="CollectablePoint" gid="2" x="168" y="40" width="8" height="8"/>
+  <object id="125" type="CollectablePoint" gid="2" x="160" y="48" width="8" height="8"/>
+  <object id="126" type="CollectablePoint" gid="2" x="152" y="48" width="8" height="8"/>
+  <object id="127" type="CollectablePoint" gid="2" x="8" y="16" width="8" height="8"/>
+  <object id="128" type="CollectablePoint" gid="2" x="184" y="48" width="8" height="8"/>
+  <object id="129" type="CollectablePoint" gid="2" x="176" y="48" width="8" height="8"/>
+  <object id="130" type="CollectablePoint" gid="2" x="192" y="48" width="8" height="8"/>
+  <object id="131" type="CollectablePoint" gid="2" x="208" y="48" width="8" height="8"/>
+  <object id="132" type="CollectablePoint" gid="2" x="200" y="48" width="8" height="8"/>
+  <object id="133" type="CollectablePoint" gid="2" x="208" y="32" width="8" height="8"/>
+  <object id="134" type="CollectablePoint" gid="2" x="208" y="40" width="8" height="8"/>
+  <object id="135" type="CollectablePoint" gid="2" x="208" y="24" width="8" height="8"/>
+  <object id="136" type="CollectablePoint" gid="2" x="208" y="16" width="8" height="8"/>
+  <object id="137" type="CollectablePoint" gid="2" x="200" y="16" width="8" height="8"/>
+  <object id="138" type="CollectablePoint" gid="2" x="192" y="16" width="8" height="8"/>
+  <object id="139" type="CollectablePoint" gid="2" x="184" y="16" width="8" height="8"/>
+  <object id="140" type="CollectablePoint" gid="2" x="176" y="16" width="8" height="8"/>
+  <object id="141" type="CollectablePoint" gid="2" x="168" y="56" width="8" height="8"/>
+  <object id="142" type="CollectablePoint" gid="2" x="168" y="64" width="8" height="8"/>
+  <object id="143" type="CollectablePoint" gid="2" x="168" y="72" width="8" height="8"/>
+  <object id="144" type="CollectablePoint" gid="2" x="176" y="72" width="8" height="8"/>
+  <object id="145" type="CollectablePoint" gid="2" x="184" y="72" width="8" height="8"/>
+  <object id="146" type="CollectablePoint" gid="2" x="192" y="72" width="8" height="8"/>
+  <object id="147" type="CollectablePoint" gid="2" x="200" y="72" width="8" height="8"/>
+  <object id="148" type="CollectablePoint" gid="2" x="208" y="72" width="8" height="8"/>
+  <object id="149" type="CollectablePoint" gid="2" x="208" y="56" width="8" height="8"/>
+  <object id="150" type="CollectablePoint" gid="2" x="208" y="64" width="8" height="8"/>
+  <object id="151" type="CollectablePoint" gid="2" x="168" y="80" width="8" height="8"/>
+  <object id="152" type="CollectablePoint" gid="2" x="168" y="88" width="8" height="8"/>
+  <object id="153" type="CollectablePoint" gid="2" x="168" y="96" width="8" height="8"/>
+  <object id="154" type="CollectablePoint" gid="2" x="168" y="104" width="8" height="8"/>
+  <object id="155" type="CollectablePoint" gid="2" x="168" y="112" width="8" height="8"/>
+  <object id="156" type="CollectablePoint" gid="2" x="152" y="120" width="8" height="8"/>
+  <object id="157" type="CollectablePoint" gid="2" x="160" y="120" width="8" height="8"/>
+  <object id="158" type="CollectablePoint" gid="2" x="168" y="120" width="8" height="8"/>
+  <object id="159" type="CollectablePoint" gid="2" x="168" y="128" width="8" height="8"/>
+  <object id="160" type="CollectablePoint" gid="2" x="168" y="136" width="8" height="8"/>
+  <object id="161" type="CollectablePoint" gid="2" x="168" y="144" width="8" height="8"/>
+  <object id="162" type="CollectablePoint" gid="2" x="168" y="152" width="8" height="8"/>
+  <object id="163" type="CollectablePoint" gid="2" x="168" y="160" width="8" height="8"/>
+  <object id="164" type="CollectablePoint" gid="2" x="168" y="176" width="8" height="8"/>
+  <object id="165" type="CollectablePoint" gid="2" x="168" y="168" width="8" height="8"/>
+  <object id="166" type="CollectablePoint" gid="2" x="176" y="168" width="8" height="8"/>
+  <object id="167" type="CollectablePoint" gid="2" x="184" y="168" width="8" height="8"/>
+  <object id="168" type="CollectablePoint" gid="2" x="192" y="168" width="8" height="8"/>
+  <object id="169" type="CollectablePoint" gid="2" x="200" y="168" width="8" height="8"/>
+  <object id="170" type="CollectablePoint" gid="2" x="208" y="168" width="8" height="8"/>
+  <object id="171" type="CollectablePoint" gid="2" x="208" y="176" width="8" height="8"/>
+  <object id="172" type="CollectablePoint" gid="2" x="208" y="184" width="8" height="8"/>
+  <object id="173" type="CollectablePoint" gid="2" x="208" y="184" width="8" height="8"/>
+  <object id="174" type="CollectablePoint" gid="2" x="208" y="192" width="8" height="8"/>
+  <object id="175" type="CollectablePoint" gid="2" x="200" y="192" width="8" height="8"/>
+  <object id="176" type="CollectablePoint" gid="2" x="192" y="192" width="8" height="8"/>
+  <object id="177" type="CollectablePoint" gid="2" x="192" y="200" width="8" height="8"/>
+  <object id="178" type="CollectablePoint" gid="2" x="192" y="208" width="8" height="8"/>
+  <object id="179" type="CollectablePoint" gid="2" x="192" y="216" width="8" height="8"/>
+  <object id="180" type="CollectablePoint" gid="2" x="200" y="216" width="8" height="8"/>
+  <object id="181" type="CollectablePoint" gid="2" x="208" y="216" width="8" height="8"/>
+  <object id="182" type="CollectablePoint" gid="2" x="208" y="224" width="8" height="8"/>
+  <object id="183" type="CollectablePoint" gid="2" x="208" y="232" width="8" height="8"/>
+  <object id="184" type="CollectablePoint" gid="2" x="208" y="240" width="8" height="8"/>
+  <object id="185" type="CollectablePoint" gid="2" x="200" y="240" width="8" height="8"/>
+  <object id="186" type="CollectablePoint" gid="2" x="184" y="240" width="8" height="8"/>
+  <object id="187" type="CollectablePoint" gid="2" x="176" y="240" width="8" height="8"/>
+  <object id="188" type="CollectablePoint" gid="2" x="192" y="240" width="8" height="8"/>
+  <object id="189" type="CollectablePoint" gid="2" x="168" y="240" width="8" height="8"/>
+  <object id="190" type="CollectablePoint" gid="2" x="160" y="240" width="8" height="8"/>
+  <object id="191" type="CollectablePoint" gid="2" x="144" y="240" width="8" height="8"/>
+  <object id="192" type="CollectablePoint" gid="2" x="152" y="240" width="8" height="8"/>
+  <object id="193" type="CollectablePoint" gid="2" x="136" y="240" width="8" height="8"/>
+  <object id="194" type="CollectablePoint" gid="2" x="128" y="240" width="8" height="8"/>
+  <object id="195" type="CollectablePoint" gid="2" x="120" y="240" width="8" height="8"/>
+  <object id="196" type="CollectablePoint" gid="2" x="120" y="232" width="8" height="8"/>
+  <object id="197" type="CollectablePoint" gid="2" x="120" y="224" width="8" height="8"/>
+  <object id="198" type="CollectablePoint" gid="2" x="120" y="216" width="8" height="8"/>
+  <object id="199" type="CollectablePoint" gid="2" x="128" y="216" width="8" height="8"/>
+  <object id="200" type="CollectablePoint" gid="2" x="136" y="216" width="8" height="8"/>
+  <object id="201" type="CollectablePoint" gid="2" x="144" y="216" width="8" height="8"/>
+  <object id="202" type="CollectablePoint" gid="2" x="144" y="208" width="8" height="8"/>
+  <object id="203" type="CollectablePoint" gid="2" x="144" y="200" width="8" height="8"/>
+  <object id="204" type="CollectablePoint" gid="2" x="144" y="192" width="8" height="8"/>
+  <object id="205" type="CollectablePoint" gid="2" x="152" y="192" width="8" height="8"/>
+  <object id="206" type="CollectablePoint" gid="2" x="160" y="192" width="8" height="8"/>
+  <object id="207" type="CollectablePoint" gid="2" x="168" y="192" width="8" height="8"/>
+  <object id="208" type="CollectablePoint" gid="2" x="168" y="184" width="8" height="8"/>
+  <object id="209" type="CollectablePoint" gid="2" x="168" y="208" width="8" height="8"/>
+  <object id="210" type="CollectablePoint" gid="2" x="168" y="200" width="8" height="8"/>
+  <object id="211" type="CollectablePoint" gid="2" x="168" y="216" width="8" height="8"/>
+  <object id="212" type="CollectablePoint" gid="2" x="176" y="216" width="8" height="8"/>
+  <object id="213" type="CollectablePoint" gid="2" x="184" y="216" width="8" height="8"/>
+  <object id="214" type="CollectablePoint" gid="2" x="136" y="192" width="8" height="8"/>
+  <object id="215" type="CollectablePoint" gid="2" x="128" y="192" width="8" height="8"/>
+  <object id="216" type="CollectablePoint" gid="2" x="120" y="192" width="8" height="8"/>
+  <object id="217" type="CollectablePoint" gid="2" x="120" y="176" width="8" height="8"/>
+  <object id="218" type="CollectablePoint" gid="2" x="120" y="192" width="8" height="8"/>
+  <object id="219" type="CollectablePoint" gid="2" x="120" y="184" width="8" height="8"/>
+  <object id="220" type="CollectablePoint" gid="2" x="120" y="168" width="8" height="8"/>
+  <object id="221" type="CollectablePoint" gid="2" x="128" y="168" width="8" height="8"/>
+  <object id="222" type="CollectablePoint" gid="2" x="136" y="168" width="8" height="8"/>
+  <object id="223" type="CollectablePoint" gid="2" x="144" y="168" width="8" height="8"/>
+  <object id="224" type="CollectablePoint" gid="2" x="152" y="168" width="8" height="8"/>
+  <object id="225" type="CollectablePoint" gid="2" x="160" y="168" width="8" height="8"/>
+  <object id="226" type="CollectablePoint" gid="2" x="144" y="160" width="8" height="8"/>
+  <object id="227" type="CollectablePoint" gid="2" x="144" y="152" width="8" height="8"/>
+  <object id="228" type="CollectablePoint" gid="2" x="112" y="192" width="8" height="8"/>
+  <object id="229" type="CollectablePoint" gid="2" x="96" y="192" width="8" height="8"/>
+  <object id="230" type="CollectablePoint" gid="2" x="104" y="192" width="8" height="8"/>
+  <object id="231" type="CollectablePoint" gid="2" x="96" y="176" width="8" height="8"/>
+  <object id="232" type="CollectablePoint" gid="2" x="96" y="184" width="8" height="8"/>
+  <object id="233" type="CollectablePoint" gid="2" x="96" y="168" width="8" height="8"/>
+  <object id="234" type="CollectablePoint" gid="2" x="88" y="168" width="8" height="8"/>
+  <object id="235" type="CollectablePoint" gid="2" x="88" y="168" width="8" height="8"/>
+  <object id="236" type="CollectablePoint" gid="2" x="72" y="168" width="8" height="8"/>
+  <object id="237" type="CollectablePoint" gid="2" x="80" y="168" width="8" height="8"/>
+  <object id="238" type="CollectablePoint" gid="2" x="72" y="160" width="8" height="8"/>
+  <object id="239" type="CollectablePoint" gid="2" x="72" y="152" width="8" height="8"/>
+  <object id="240" type="CollectablePoint" gid="2" x="64" y="168" width="8" height="8"/>
+  <object id="241" type="CollectablePoint" gid="2" x="56" y="168" width="8" height="8"/>
+  <object id="242" type="CollectablePoint" gid="2" x="48" y="168" width="8" height="8"/>
+  <object id="243" type="CollectablePoint" gid="2" x="48" y="160" width="8" height="8"/>
+  <object id="244" type="CollectablePoint" gid="2" x="48" y="152" width="8" height="8"/>
+  <object id="245" type="CollectablePoint" gid="2" x="48" y="176" width="8" height="8"/>
+  <object id="246" type="CollectablePoint" gid="2" x="48" y="184" width="8" height="8"/>
+  <object id="247" type="CollectablePoint" gid="2" x="48" y="192" width="8" height="8"/>
+  <object id="248" type="CollectablePoint" gid="2" x="56" y="192" width="8" height="8"/>
+  <object id="249" type="CollectablePoint" gid="2" x="64" y="192" width="8" height="8"/>
+  <object id="250" type="CollectablePoint" gid="2" x="72" y="192" width="8" height="8"/>
+  <object id="251" type="CollectablePoint" gid="2" x="80" y="192" width="8" height="8"/>
+  <object id="252" type="CollectablePoint" gid="2" x="88" y="192" width="8" height="8"/>
+  <object id="253" type="CollectablePoint" gid="2" x="72" y="200" width="8" height="8"/>
+  <object id="254" type="CollectablePoint" gid="2" x="72" y="208" width="8" height="8"/>
+  <object id="255" type="CollectablePoint" gid="2" x="72" y="216" width="8" height="8"/>
+  <object id="256" type="CollectablePoint" gid="2" x="80" y="216" width="8" height="8"/>
+  <object id="257" type="CollectablePoint" gid="2" x="88" y="216" width="8" height="8"/>
+  <object id="258" type="CollectablePoint" gid="2" x="96" y="216" width="8" height="8"/>
+  <object id="259" type="CollectablePoint" gid="2" x="96" y="232" width="8" height="8"/>
+  <object id="260" type="CollectablePoint" gid="2" x="96" y="224" width="8" height="8"/>
+  <object id="261" type="CollectablePoint" gid="2" x="96" y="240" width="8" height="8"/>
+  <object id="262" type="CollectablePoint" gid="2" x="104" y="240" width="8" height="8"/>
+  <object id="263" type="CollectablePoint" gid="2" x="112" y="240" width="8" height="8"/>
+  <object id="264" type="CollectablePoint" gid="2" x="88" y="240" width="8" height="8"/>
+  <object id="265" type="CollectablePoint" gid="2" x="80" y="240" width="8" height="8"/>
+  <object id="266" type="CollectablePoint" gid="2" x="72" y="240" width="8" height="8"/>
+  <object id="267" type="CollectablePoint" gid="2" x="64" y="240" width="8" height="8"/>
+  <object id="268" type="CollectablePoint" gid="2" x="56" y="240" width="8" height="8"/>
+  <object id="269" type="CollectablePoint" gid="2" x="48" y="240" width="8" height="8"/>
+  <object id="270" type="CollectablePoint" gid="2" x="40" y="240" width="8" height="8"/>
+  <object id="271" type="CollectablePoint" gid="2" x="32" y="240" width="8" height="8"/>
+  <object id="272" type="CollectablePoint" gid="2" x="24" y="240" width="8" height="8"/>
+  <object id="273" type="CollectablePoint" gid="2" x="24" y="240" width="8" height="8"/>
+  <object id="274" type="CollectablePoint" gid="2" x="16" y="240" width="8" height="8"/>
+  <object id="275" type="CollectablePoint" gid="2" x="8" y="240" width="8" height="8"/>
+  <object id="276" type="CollectablePoint" gid="2" x="8" y="232" width="8" height="8"/>
+  <object id="277" type="CollectablePoint" gid="2" x="8" y="224" width="8" height="8"/>
+  <object id="278" type="CollectablePoint" gid="2" x="8" y="216" width="8" height="8"/>
+  <object id="279" type="CollectablePoint" gid="2" x="16" y="216" width="8" height="8"/>
+  <object id="280" type="CollectablePoint" gid="2" x="32" y="216" width="8" height="8"/>
+  <object id="281" type="CollectablePoint" gid="2" x="24" y="216" width="8" height="8"/>
+  <object id="282" type="CollectablePoint" gid="2" x="40" y="216" width="8" height="8"/>
+  <object id="283" type="CollectablePoint" gid="2" x="48" y="216" width="8" height="8"/>
+  <object id="284" type="CollectablePoint" gid="2" x="48" y="208" width="8" height="8"/>
+  <object id="285" type="CollectablePoint" gid="2" x="48" y="200" width="8" height="8"/>
+  <object id="286" type="CollectablePoint" gid="2" x="24" y="208" width="8" height="8"/>
+  <object id="287" type="CollectablePoint" gid="2" x="24" y="200" width="8" height="8"/>
+  <object id="288" type="CollectablePoint" gid="2" x="24" y="192" width="8" height="8"/>
+  <object id="289" type="CollectablePoint" gid="2" x="16" y="192" width="8" height="8"/>
+  <object id="290" type="CollectablePoint" gid="2" x="8" y="192" width="8" height="8"/>
+  <object id="291" type="CollectablePoint" gid="2" x="8" y="184" width="8" height="8"/>
+  <object id="292" type="CollectablePoint" gid="2" x="8" y="176" width="8" height="8"/>
+  <object id="293" type="CollectablePoint" gid="2" x="8" y="168" width="8" height="8"/>
+  <object id="294" type="CollectablePoint" gid="2" x="16" y="168" width="8" height="8"/>
+  <object id="295" type="CollectablePoint" gid="2" x="32" y="168" width="8" height="8"/>
+  <object id="296" type="CollectablePoint" gid="2" x="24" y="168" width="8" height="8"/>
+  <object id="297" type="CollectablePoint" gid="2" x="40" y="168" width="8" height="8"/>
+  <object id="298" type="CollectablePoint" gid="2" x="48" y="24" width="8" height="8"/>
+  <object id="299" type="CollectablePoint" gid="2" x="48" y="40" width="8" height="8"/>
+  <object id="300" type="CollectablePoint" gid="2" x="48" y="56" width="8" height="8"/>
+  <object id="302" type="CollectablePoint" gid="2" x="8" y="16" width="8" height="8"/>
+  <object id="303" type="CollectablePoint" gid="2" x="8" y="16" width="8" height="8"/>
+  <object id="304" type="CollectablePoint" gid="2" x="168" y="24" width="8" height="8"/>
+  <object id="305" type="CollectablePoint" gid="2" x="168" y="16" width="8" height="8"/>
+  <object id="306" type="CollectablePoint" gid="2" x="160" y="16" width="8" height="8"/>
+  <object id="308" type="CollectablePoint" gid="2" x="8" y="16" width="8" height="8"/>
+  <object id="309" type="CollectablePoint" gid="2" x="32" y="48" width="8" height="8"/>
+  <object id="310" type="CollectablePoint" gid="2" x="8" y="16" width="8" height="8"/>
+  <object id="453" type="CollectablePoint" gid="2" x="40" y="120" width="8" height="8"/>
+  <object id="454" type="CollectablePoint" gid="2" x="32" y="120" width="8" height="8"/>
+  <object id="455" type="CollectablePoint" gid="2" x="24" y="120" width="8" height="8"/>
+  <object id="456" type="CollectablePoint" gid="2" x="16" y="120" width="8" height="8"/>
+  <object id="457" type="CollectablePoint" gid="2" x="8" y="120" width="8" height="8"/>
+  <object id="458" type="CollectablePoint" gid="2" x="0" y="120" width="8" height="8"/>
+  <object id="459" type="CollectablePoint" gid="2" x="216" y="120" width="8" height="8"/>
+  <object id="460" type="CollectablePoint" gid="2" x="176" y="120" width="8" height="8"/>
+  <object id="461" type="CollectablePoint" gid="2" x="184" y="120" width="8" height="8"/>
+  <object id="462" type="CollectablePoint" gid="2" x="192" y="120" width="8" height="8"/>
+  <object id="463" type="CollectablePoint" gid="2" x="200" y="120" width="8" height="8"/>
+  <object id="464" type="CollectablePoint" gid="2" x="208" y="120" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="SpawnPoints" visible="0">
+  <object id="326" name="Ghost1" type="GhostSpawnPoint" x="112" y="96">
+   <point/>
+  </object>
+  <object id="327" name="Ghost2" type="GhostSpawnPoint" x="96" y="120">
+   <point/>
+  </object>
+  <object id="329" name="Ghost3" type="GhostSpawnPoint" x="112" y="120">
+   <point/>
+  </object>
+  <object id="330" name="Ghost4" type="GhostSpawnPoint" x="128" y="120">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Nodes" visible="0">
+  <object id="338" name="0" type="Node" x="12" y="236">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="1"/>
+    <property name="top" value="4"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="339" name="1" type="Node" x="100" y="236">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="0"/>
+    <property name="right" value="2"/>
+    <property name="top" value="8"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="342" name="4" type="Node" x="12" y="212">
+   <properties>
+    <property name="bottom" value="0"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="5"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="343" name="5" type="Node" x="28" y="212">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="4"/>
+    <property name="right" value="6"/>
+    <property name="top" value="15"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="344" name="6" type="Node" x="52" y="212">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="5"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="16"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="345" name="7" type="Node" x="76" y="212">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="8"/>
+    <property name="top" value="17"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="346" name="8" type="Node" x="100" y="212">
+   <properties>
+    <property name="bottom" value="1"/>
+    <property name="left" value="7"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="351" name="14" type="Node" x="12" y="188">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="15"/>
+    <property name="top" value="24"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="352" name="15" type="Node" x="28" y="188">
+   <properties>
+    <property name="bottom" value="5"/>
+    <property name="left" value="14"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="353" name="16" type="Node" x="52" y="188">
+   <properties>
+    <property name="bottom" value="6"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="17"/>
+    <property name="top" value="25"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="354" name="17" type="Node" x="76" y="188">
+   <properties>
+    <property name="bottom" value="7"/>
+    <property name="left" value="16"/>
+    <property name="right" value="18"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="355" name="18" type="Node" x="100" y="188">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="17"/>
+    <property name="right" value="Player"/>
+    <property name="top" value="27"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="362" name="24" type="Node" x="12" y="164">
+   <properties>
+    <property name="bottom" value="14"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="25"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="363" name="25" type="Node" x="52" y="164">
+   <properties>
+    <property name="bottom" value="16"/>
+    <property name="left" value="24"/>
+    <property name="right" value="26"/>
+    <property name="top" value="34"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="364" name="26" type="Node" x="76" y="164">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="25"/>
+    <property name="right" value="27"/>
+    <property name="top" value="32"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="365" name="27" type="Node" x="100" y="164">
+   <properties>
+    <property name="bottom" value="18"/>
+    <property name="left" value="26"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="370" name="34" type="Node" x="52" y="116">
+   <properties>
+    <property name="bottom" value="25"/>
+    <property name="left" value="34-37"/>
+    <property name="right" value="35"/>
+    <property name="top" value="43"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="371" name="35" type="Node" x="76" y="116">
+   <properties>
+    <property name="bottom" value="32"/>
+    <property name="left" value="34"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="38"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="372" name="32" type="Node" x="76" y="140">
+   <properties>
+    <property name="bottom" value="26"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="33"/>
+    <property name="top" value="35"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="376" name="39" type="Node" x="100" y="92">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="38"/>
+    <property name="right" value="40"/>
+    <property name="top" value="45"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="377" name="45" type="Node" x="100" y="68">
+   <properties>
+    <property name="bottom" value="39"/>
+    <property name="left" value="44"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="378" name="44" type="Node" x="76" y="68">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="45"/>
+    <property name="top" value="52"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="379" name="43" type="Node" x="52" y="68">
+   <properties>
+    <property name="bottom" value="34"/>
+    <property name="left" value="42"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="51"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="380" name="42" type="Node" x="12" y="68">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="43"/>
+    <property name="top" value="50"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="381" name="50" type="Node" x="12" y="44">
+   <properties>
+    <property name="bottom" value="42"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="51"/>
+    <property name="top" value="58"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="382" name="51" type="Node" x="52" y="44">
+   <properties>
+    <property name="bottom" value="43"/>
+    <property name="left" value="50"/>
+    <property name="right" value="52"/>
+    <property name="top" value="59"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="383" name="58" type="Node" x="12" y="12">
+   <properties>
+    <property name="bottom" value="50"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="59"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="384" name="59" type="Node" x="52" y="12">
+   <properties>
+    <property name="bottom" value="51"/>
+    <property name="left" value="58"/>
+    <property name="right" value="60"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="385" name="60" type="Node" x="100" y="12">
+   <properties>
+    <property name="bottom" value="53"/>
+    <property name="left" value="59"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="386" name="53" type="Node" x="100" y="44">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="52"/>
+    <property name="right" value="54"/>
+    <property name="top" value="60"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="417" name="2" type="Node" x="124" y="236">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="1"/>
+    <property name="right" value="3"/>
+    <property name="top" value="9"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="418" name="9" type="Node" x="124" y="212">
+   <properties>
+    <property name="bottom" value="2"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="10"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="419" name="19" type="Node" x="124" y="188">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="Player"/>
+    <property name="right" value="20"/>
+    <property name="top" value="28"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="420" name="28" type="Node" x="124" y="164">
+   <properties>
+    <property name="bottom" value="19"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="29"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="421" name="40" type="Node" x="124" y="92">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="39"/>
+    <property name="right" value="41"/>
+    <property name="top" value="46"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="422" name="46" type="Node" x="124" y="68">
+   <properties>
+    <property name="bottom" value="40"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="47"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="423" name="61" type="Node" x="124" y="12">
+   <properties>
+    <property name="bottom" value="54"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="62"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="424" name="54" type="Node" x="124" y="44">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="53"/>
+    <property name="right" value="55"/>
+    <property name="top" value="61"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="425" name="10" type="Node" x="148" y="212">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="9"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="20"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="426" name="20" type="Node" x="148" y="188">
+   <properties>
+    <property name="bottom" value="10"/>
+    <property name="left" value="19"/>
+    <property name="right" value="21"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="427" name="29" type="Node" x="148" y="164">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="28"/>
+    <property name="right" value="30"/>
+    <property name="top" value="33"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="428" name="36" type="Node" x="148" y="116">
+   <properties>
+    <property name="bottom" value="33"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="37"/>
+    <property name="top" value="41"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="429" name="33" type="Node" x="148" y="140">
+   <properties>
+    <property name="bottom" value="29"/>
+    <property name="left" value="32"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="36"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="430" name="47" type="Node" x="148" y="68">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="46"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="55"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="431" name="11" type="Node" x="172" y="212">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="12"/>
+    <property name="top" value="21"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="432" name="21" type="Node" x="172" y="188">
+   <properties>
+    <property name="bottom" value="11"/>
+    <property name="left" value="20"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="30"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="433" name="30" type="Node" x="172" y="164">
+   <properties>
+    <property name="bottom" value="21"/>
+    <property name="left" value="29"/>
+    <property name="right" value="31"/>
+    <property name="top" value="37"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="434" name="37" type="Node" x="172" y="116">
+   <properties>
+    <property name="bottom" value="30"/>
+    <property name="left" value="36"/>
+    <property name="right" value="37-34"/>
+    <property name="top" value="48"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="435" name="48" type="Node" x="172" y="68">
+   <properties>
+    <property name="bottom" value="37"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="49"/>
+    <property name="top" value="56"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="436" name="56" type="Node" x="172" y="44">
+   <properties>
+    <property name="bottom" value="48"/>
+    <property name="left" value="55"/>
+    <property name="right" value="57"/>
+    <property name="top" value="62"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="437" name="62" type="Node" x="172" y="12">
+   <properties>
+    <property name="bottom" value="56"/>
+    <property name="left" value="51"/>
+    <property name="right" value="63"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="438" name="3" type="Node" x="212" y="236">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="2"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="13"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="439" name="13" type="Node" x="212" y="212">
+   <properties>
+    <property name="bottom" value="3"/>
+    <property name="left" value="12"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="440" name="23" type="Node" x="212" y="188">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="22"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="31"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="441" name="31" type="Node" x="212" y="164">
+   <properties>
+    <property name="bottom" value="23"/>
+    <property name="left" value="30"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="442" name="49" type="Node" x="212" y="68">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="48"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="57"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="443" name="57" type="Node" x="212" y="44">
+   <properties>
+    <property name="bottom" value="49"/>
+    <property name="left" value="56"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="63"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="444" name="63" type="Node" x="212" y="12">
+   <properties>
+    <property name="bottom" value="57"/>
+    <property name="left" value="62"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="445" name="12" type="Node" x="196" y="212">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="11"/>
+    <property name="right" value="13"/>
+    <property name="top" value="22"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="446" name="22" type="Node" x="196" y="188">
+   <properties>
+    <property name="bottom" value="12"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="23"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="447" name="38" type="Node" x="76" y="92">
+   <properties>
+    <property name="bottom" value="35"/>
+    <property name="left" value="-1"/>
+    <property name="right" value="39"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="448" name="41" type="Node" x="148" y="92">
+   <properties>
+    <property name="bottom" value="36"/>
+    <property name="left" value="40"/>
+    <property name="right" value="-1"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="449" name="52" type="Node" x="76" y="44">
+   <properties>
+    <property name="bottom" value="44"/>
+    <property name="left" value="51"/>
+    <property name="right" value="53"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="450" name="34-37" type="Portal" x="0" y="116">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="37-34"/>
+    <property name="right" value="34"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="465" name="55" type="Node" x="148" y="44">
+   <properties>
+    <property name="bottom" value="47"/>
+    <property name="left" value="54"/>
+    <property name="right" value="56"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="452" name="37-34" type="Portal" x="224" y="116">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="37"/>
+    <property name="right" value="34-37"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="466" name="Player" type="Node" x="112" y="188">
+   <properties>
+    <property name="bottom" value="-1"/>
+    <property name="left" value="18"/>
+    <property name="right" value="19"/>
+    <property name="top" value="-1"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>

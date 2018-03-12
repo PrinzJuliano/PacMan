@@ -116,21 +116,23 @@ class Player {
         gfx.noStroke();
         gfx.ellipse(pos.x, pos.y, playerWidth, playerHeight);
 
-        gfx.stroke(255, 255, 0);
-        Node current = nextNode;
+        if (PacMan.DEBUG) {
+            gfx.stroke(255, 255, 0);
+            Node current = nextNode;
 
-        if (nextNode != null) {
-            gfx.line(currentNode.getPosition().x, currentNode.getPosition().y, nextNode.getPosition().x, nextNode.getPosition().y);
-        }
+            if (nextNode != null) {
+                gfx.line(currentNode.getPosition().x, currentNode.getPosition().y, nextNode.getPosition().x, nextNode.getPosition().y);
+            }
 
-        if (path.size() > 0) {
-            for (Direction d : path) {
-                Node next = main.getMap().getNextNode(current, d);
-                if (next != null) {
-                    gfx.line(current.getPosition().x, current.getPosition().y, next.getPosition().x, next.getPosition().y);
-                    current = next;
-                } else {
-                    break;
+            if (path.size() > 0) {
+                for (Direction d : path) {
+                    Node next = main.getMap().getNextNode(current, d);
+                    if (next != null) {
+                        gfx.line(current.getPosition().x, current.getPosition().y, next.getPosition().x, next.getPosition().y);
+                        current = next;
+                    } else {
+                        break;
+                    }
                 }
             }
         }

@@ -72,7 +72,7 @@ public class Node {
 
     public String getNodeIdFromDirection(Direction direction) {
         if(direction == null)
-            return null;
+            return "-1";
 
         switch(direction){
             case UP:

@@ -41,7 +41,7 @@ class Player {
 
     public void update() {
         if (direction != null) {
-            if (currentNode.getNodeIdFromDirection(direction) == "-1") {
+            if (currentNode.getNodeIdFromDirection(direction).equalsIgnoreCase("-1")) {
                 direction = null;
             } else {
                 if (nextNode != null) {
@@ -165,21 +165,28 @@ class Player {
             }
 
             next = main.getMap().getNextNode(currentNode, direction);
+            if (next == null) {
+                direction = null;
+                path.clear();
+                nextNode = null;
+                return;
+            }
 
             path = new ArrayList<>();
             while (true) {
+                if (next == null) {
+                    return;
+                }
                 if (!next.getNodeIdFromDirection(nextDir).equalsIgnoreCase("-1")) {
                     path.add(nextDir);
-                    System.out.println("+" + nextDir);
                     break;
                 } else {
 
                     path.add(direction);
                     next = main.getMap().getNextNode(next, direction);
                     System.out.println("+" + direction);
-                    if (next.getNodeIdFromDirection(direction).equalsIgnoreCase("-1")) {
+                    if (next != null && next.getNodeIdFromDirection(nextDir).equalsIgnoreCase("-1") && next.getNodeIdFromDirection(direction).equalsIgnoreCase("-1")) {
                         path.add(null);
-                        System.out.println("+" + null);
                         break;
                     }
                 }

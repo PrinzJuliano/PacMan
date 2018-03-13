@@ -7,14 +7,24 @@ public class Node {
     private String right;
     private String top;
     private String bottom;
+    private boolean isPortal;
 
     public Node(String id, PVector pos, String left, String top, String right, String bottom) {
+        this(id, pos, left, top, right, bottom, false);
+    }
+
+    public Node(String id, PVector pos, String left, String top, String right, String bottom, boolean isPortal) {
         this.id = id;
         this.position = pos;
         this.left = left;
         this.right = right;
         this.top = top;
         this.bottom = bottom;
+        this.isPortal = isPortal;
+    }
+
+    public boolean isPortal() {
+        return this.isPortal;
     }
 
     public PVector getPosition() {
@@ -71,10 +81,10 @@ public class Node {
     }
 
     public String getNodeIdFromDirection(Direction direction) {
-        if(direction == null)
+        if (direction == null)
             return "-1";
 
-        switch(direction){
+        switch (direction) {
             case UP:
                 return getTop();
             case DOWN:

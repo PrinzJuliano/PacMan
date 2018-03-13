@@ -20,10 +20,7 @@ public class Map {
     private Ptmx rawMap;
 
     private ArrayList<Path> paths;
-
-    public ArrayList<Node> getNodes() {
-        return nodes;
-    }
+    private ArrayList<Collectable> collectables;
 
     private ArrayList<Node> nodes;
 
@@ -49,7 +46,12 @@ public class Map {
             int y = parseInt(dict.get("y"));
             PVector pos = new PVector(x, y);
 
-            nodes.add(new Node(id, pos, left, top, right, bottom));
+            nodes.add(new Node(id, pos, left, top, right, bottom, type.equalsIgnoreCase("Portal")));
+        }
+
+        collectables = new ArrayList<>();
+        for (StringDict dict : map.getObjects(COLLECTABLES)) {
+            collectables.add(new Collectable(dict));
         }
 
         if (PacMan.DEBUG) {
@@ -101,7 +103,7 @@ public class Map {
     }
 
     public Node getNextNode(Node reference, Direction dir) {
-        if(dir == null || reference == null)
+        if (dir == null || reference == null)
             return null;
         switch (dir) {
             case UP:
@@ -225,6 +227,13 @@ public class Map {
 
         rawMap.draw(gfx, 0, 0);
 
+        gfx.beginDraw();
+
+        for (Collectable c : collectables)
+            c.draw(gfx);
+
+        gfx.endDraw();
+
         if (PacMan.DEBUG) {
             gfx.beginDraw();
             gfx.stroke(255, 100);
@@ -243,10 +252,33 @@ public class Map {
             }
 
             gfx.endDraw();
+
+
         }
+    }
+
+    public ArrayList<Node> getNodes() {
+        return nodes;
     }
 
     public ArrayList<Path> getPaths() {
         return paths;
+    }
+
+    public Collectable getClosestCollectable(PVector pos) {
+        float bestDist = collectables.get(0).position.dist(pos);
+        float dist;
+        int bestID = 0;
+        for (int i = collectables.size() - 1; i >= 0; i--) {
+            if((dist = collectables.get(i).position.dist(pos)) < bestDist){
+                bestDist = dist;
+                bestID = i;
+            }
+        }
+        return collectables.get(bestID);
+    }
+
+    public ArrayList<Collectable> getCollectables() {
+        return collectables;
     }
 }

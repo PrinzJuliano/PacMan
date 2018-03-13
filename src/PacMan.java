@@ -1,42 +1,40 @@
 import processing.core.*;
-import processing.data.*;
-import processing.event.*;
-import processing.opengl.*;
 
 import ptmx.*;
 
-import java.util.HashMap;
-import java.util.ArrayList;
-import java.io.File;
-import java.io.BufferedReader;
-import java.io.PrintWriter;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.IOException;
-
 public class PacMan extends PApplet {
 
-    public static final boolean DEBUG = false;
+    public static final boolean DEBUG = true;
 
     private float lastTime = 0;
     private float delta = 0;
 
+    private static PacMan ref;
     private Map map;
     private Player player;
-    private PGraphics gfx;
+    private HUD hud;
+    private PGraphics gameGFX, hudGFX;
+
+    public static PacMan getRef() {
+        return ref;
+    }
 
     public void setup() {
-        surface.setResizable(true);
+        ref = this;
+        surface.setResizable(false);
         frame.setLocationRelativeTo(null);
 
         map = new Map(new Ptmx(this, "data/map.tmx"));
 
         PVector mapSize = map.getPixelPerfectSize();
 
-        player = new Player(this);
+        player = new Player();
+        hud = new HUD(this);
 
-        gfx = createGraphics((int) mapSize.x, (int) mapSize.y);
-        gfx.noSmooth();
+        gameGFX = createGraphics((int) mapSize.x, (int) mapSize.y);
+        gameGFX.noSmooth();
+        hudGFX = createGraphics(width, height);
+        hudGFX.smooth();
     }
 
     private void scaleImageUp() {
@@ -44,15 +42,15 @@ public class PacMan extends PApplet {
         //calculate scaling factor for pixel perfect scaling
         float scaleX = width / mapSize.x;
         float scaleY = height / mapSize.y;
-        float smalestScale = min(scaleX, scaleY);
+        float smallestScale = min(scaleX, scaleY);
 
-        int actualWidth = (int) (mapSize.x * smalestScale);
-        int actualHeight = (int) (mapSize.y * smalestScale);
+        int actualWidth = (int) (mapSize.x * smallestScale);
+        int actualHeight = (int) (mapSize.y * smallestScale);
 
         float offsetX = (width - actualWidth) / 2.0f;
         float offsetY = (height - actualHeight) / 2.0f;
 
-        image(gfx, offsetX, offsetY, actualWidth, actualHeight);
+        image(gameGFX, offsetX, offsetY, actualWidth, actualHeight);
     }
 
     public void keyPressed() {
@@ -75,13 +73,17 @@ public class PacMan extends PApplet {
         background(0);
 
         //Rendering
-        map.draw(gfx);
+        map.draw(gameGFX);
+
+        hud.draw(hudGFX);
 
         player.update();
-        player.draw(gfx);
+        player.draw(gameGFX);
 
         //Scaling
         scaleImageUp();
+
+        image(hudGFX, 0, 0);
         lastTime = millis();
 
 
@@ -92,7 +94,7 @@ public class PacMan extends PApplet {
     }
 
     public void settings() {
-        size(448, 496, P2D);
+        size(448, 546, P2D);
     }
 
     static public void main(String[] passedArgs) {
@@ -106,5 +108,9 @@ public class PacMan extends PApplet {
 
     public float getDelta() {
         return delta;
+    }
+
+    public HUD getHUD() {
+        return hud;
     }
 }

@@ -58,3 +58,8 @@ http://jogamp.org/jogl/www/
 
 The Programming Language by Oracle  
 https://java.com/
+
+## Fonts used:
+
+### Ubheavtt by aenigma.d188
+https://www.dafont.com/upheaval.font
